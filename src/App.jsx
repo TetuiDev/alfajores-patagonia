@@ -10,7 +10,7 @@ function App() {
     <div className="bg-[#fdf7f2] text-[#3a2a1a] min-h-screen">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Test />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
