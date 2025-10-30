@@ -7,13 +7,13 @@ export default function Test (){
         </div>
 
         <div className="">
-            <img className="size-1 shrink-0" src="src/assets/images/logo_test.jpg" alt="ChitChat Logo" />  
+            <img className="size-1 shrink-0" src="src/assets/images/Logo.png" alt="ChitChat Logo" />  
             
             <p className="text-green">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, consequatur. Sed atque veritatis aperiam facere, quasi pariatur ut sapiente reiciendis magni voluptatum aspernatur eos non eius molestiae asperiores totam voluptatem?</p>
         </div>
 
         <div className="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">  
-            <img className="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="src/assets/images/logo_test.jpg" alt="" />  
+            <img className="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0 size-100" src="src/assets/images/Logo.png" alt="" />  
             <div className="space-y-2 text-center sm:text-left">   
                 <div className="space-y-0.5">
                     <p className="text-lg font-semibold text-black">Erin Lindford</p>      

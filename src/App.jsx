@@ -1,17 +1,25 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useSearchParams } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Test from "./pages/Test";
+import { isMobile } from "./util/isMobile";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [isMobileDevice,setIsMobileDevice] = useState(false);
+  
+  useEffect(()=>{
+    const device = isMobile()
+    setIsMobileDevice(device)
+
+  },[])
+
   return (
-    <div className="bg-[#fdf7f2] text-[#3a2a1a] min-h-screen">
-      <Navbar />
+    <div className="bg-[#FFF6E9] text-[#3a2a1a] min-h-screen font-['Helbetica']">
+      <Navbar isMobile={isMobileDevice} />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Home isMobile={isMobileDevice} />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
