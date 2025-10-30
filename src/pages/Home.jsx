@@ -3,7 +3,7 @@ import ParallaxSection from "../components/ParallaxSection";
 export default function Home({isMobile}) {
   return (
     <div>
-      <ParallaxSection isMobile={isMobile} image="src/assets/images/Fondo.jpg">
+      <ParallaxSection isMobile={isMobile} image="/Fondo.jpg">
         <div>
           <h1 className="text-4xl md:text-6xl font-bold font-['Helbetica']">Alfajores Patagonia</h1>
           <p className="mt-4 text-lg font-['Helbetica']">Tradicionales alfajores caseros</p>
@@ -13,7 +13,7 @@ export default function Home({isMobile}) {
       <section className="p-8 md:p-16 text-center ">
         <div className="max-w-3xl mx-auto">
           <img
-            src="src/assets/images/Logo.png"
+            src="/Logo.png"
             alt="Alfajores"
             className="w-48 mx-auto mb-6 rounded-full shadow-lg"
           />

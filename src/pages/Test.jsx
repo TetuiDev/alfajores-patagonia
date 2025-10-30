@@ -7,7 +7,7 @@ export default function Test (){
         </div>
 
         <div className="">
-            <img className="size-1 shrink-0" src="src/assets/images/Logo.png" alt="ChitChat Logo" />  
+            <img className="size-1 shrink-0" src="/Logo.png" alt="ChitChat Logo" />  
             
             <p className="text-green">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, consequatur. Sed atque veritatis aperiam facere, quasi pariatur ut sapiente reiciendis magni voluptatum aspernatur eos non eius molestiae asperiores totam voluptatem?</p>
         </div>
