@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.test-main{
+  font-weight: bold;
+  p {
+    font-size: 15px;
+    color: green;
+    span {
+      color: red;
+    }
+  }
+}
