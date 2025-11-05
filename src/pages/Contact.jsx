@@ -97,8 +97,7 @@ export default function Contact() {
                 <button className="bg-[#b4825e] text-white py-2 rounded-md hover:bg-[#8e6449]">
                 Enviar
                 </button>
-                }
-                
+                }                
             </form>
         </section>
     );

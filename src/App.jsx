@@ -2,6 +2,7 @@ import { Routes, Route, useSearchParams } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
 import { isMobile } from "./util/isMobile";
 import { useEffect, useState } from "react";
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home isMobile={isMobileDevice} />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
